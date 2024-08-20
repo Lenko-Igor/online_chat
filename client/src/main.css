@@ -1,0 +1,29 @@
+:root {
+  --bg-chat: #c0c2ec;
+  --bg-chat2: #8185d9;
+  --bg-light_grey: #a5a3a38f;
+  --bg-green: #07eb2a;
+  --white: #fff;
+  --text-grey: #525050;
+  --text-blue: #1976d2;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+#root .MuiInputBase-input {
+  height: 40px;
+  padding: 0 15px;
+}
+
+#root .btn {
+  height: 40px;
+  min-width: 180px;
+}
+
+#root .footer {
+  height: 62px;
+}

@@ -1,0 +1,34 @@
+.chat {
+  height: 100vh;
+  background-color: var(--bg-chat);
+}
+
+.chat-main {
+  height: 100%;
+  padding: 10px 25px;
+  overflow: auto;
+}
+
+.chat-footer {
+  background-color: var(--bg-chat2);
+  position: relative;
+  padding: 0 25px;
+}
+
+.chat-footer .icon_wrapper {
+  width: 62px;
+  height: 62px;
+  cursor: pointer;
+}
+
+.chat-footer .icon_wrapper .icon {
+  width: 30px;
+  height: 30px;
+}
+
+.chat-footer .icon_wrapper .emoji_field {
+  position: absolute;
+  right: 20px;
+  bottom: 105%;
+  z-index: 1;
+}

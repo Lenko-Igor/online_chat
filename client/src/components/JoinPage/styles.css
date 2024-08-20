@@ -1,0 +1,22 @@
+.paper {
+  height: 100vh;
+  background-color: var(--bg-chat);
+}
+
+.paper .window {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 15px;
+}
+
+.paper .window .title {
+  font-size: 28px;
+  text-align: center;
+  font-weight: bold;
+  color: var(--text-blue);
+}
+
+.paper .window .form {
+  min-width: 350px;
+}
