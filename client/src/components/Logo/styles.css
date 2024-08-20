@@ -1,0 +1,9 @@
+.logo_field {
+  margin-bottom: 15px;
+}
+
+.logo_field .title {
+  height: 50px;
+  font-size: 28px;
+  font-weight: bold;
+}

@@ -1,0 +1,19 @@
+.message .title {
+  color: var(--text-grey);
+  padding: 0 15px;
+}
+
+.message .green {
+  background-color: var(--bg-green);
+}
+
+.message .grey {
+  background-color: var(--bg-light_grey);
+}
+
+.message .msg {
+  color: var(--white);
+  border-radius: 15px;
+  padding: 15px;
+  width: fit-content;
+}

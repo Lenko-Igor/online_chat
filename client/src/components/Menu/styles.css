@@ -1,0 +1,14 @@
+.menu {
+  background-color: var(--bg-chat2);
+  height: 100vh;
+  min-width: 250px;
+}
+
+.menu .list {
+  padding: 10px 15px;
+}
+
+.menu .list .item {
+  justify-content: flex-end;
+  font-weight: bold;
+}
